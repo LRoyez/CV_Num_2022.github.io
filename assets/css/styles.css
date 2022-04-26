@@ -506,14 +506,14 @@ img{
   }
 
   .portfolio__container{
-    grid-template-columns: repeat(3, 210px);
+    grid-template-columns: repeat(3, 400px);
     column-gap: 4rem;
   }
   .portfolio__content{
     padding: 1.5rem;
   }
   .portfolio__img{
-    width: 130px;
+    width: 400px;
   }
 
   .app__store{
