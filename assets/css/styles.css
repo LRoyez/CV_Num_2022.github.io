@@ -543,3 +543,17 @@ img{
         height: 640px;
     }
 }
+footer > div > div:nth-child(2) > ul {
+  display: flex;
+}
+
+.bxl-linkedin-square {
+  color: #fafafa;
+  font-size:xx-large;
+  margin-right: 40px;
+}
+
+.bxl-github {
+  color: #fafafa;
+  font-size:xx-large;
+}
