@@ -55,7 +55,16 @@
             <div class="about__container  bd-grid">
                 <div class="about__data">
                     <span class="section-subtitle about__initial">Parlons de moi </span>
-                    <h2 class="section-title about__initial">Louis Royez 25 ans</h2>
+                    <h2 class="section-title about__initial">Louis Royez 
+                    <script>
+                        var dob = new Date("10/24/1997");
+                        var month_diff = Date.now() - dob.getTime();
+                        var age_dt = new Date(month_diff); 
+                        var year = age_dt.getUTCFullYear();
+                        var age = Math.abs(year - 1970);
+                        document.write(age + " years");
+                    </script>
+                    </h2>
                     <p class="about__description">Je suis étudiant à La Manu en Design web, fan de jeux vidéo en particulier les jeux compétitifs car
                          j'adore avoir des objectifs et j'aime par dessus tout gagner. La cuisine fait également parti de mes hobbies car j'ai toujours cuisiné pour ma famille.
                         J'aimerais dans le futur pouvoir voyager dans le <br> monde entier afin de découvrir de<br> nouvelles choses. </p>
@@ -227,11 +236,12 @@
             <div class="footer__content">
                 <h3 class="footer__title">Réseaux sociaux</h3>
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/louis-royez-bb1533209/"><i class='bx bxl-linkedin-square'></i></a></li>
-                    <li><a href="https://github.com/LRoyez"><i class='bx bxl-github' ></i></a></li>
+                    <li><a target="_blank" href="https://fr.linkedin.com/in/louis-royez-bb1533209"><i class='bx bxl-linkedin-square'></i></a></li>
+                    <li><a target="_blank" href="https://github.com/LRoyez"><i class='bx bxl-github' ></i></a></li>
                 </ul>
             </div>
         </div>
+        <span class="footer__copy">&#169; Louis Royez All rigths reserved</span>
     </footer>
 
 
