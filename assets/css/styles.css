@@ -104,7 +104,7 @@ body.dark-theme{
   --title-color: #F1F3F2;
   --text-color: #C7D1CC;
   --body-color: #1E1E1E;
-  --container-color: #27302C;
+  --container-color: rgb(94, 36, 219, 0.2);
 }
 
 .change-theme{
@@ -607,4 +607,11 @@ footer > div > div:nth-child(2) > ul {
   font-weight: 800;
   margin-top: 4.5rem;
   color: #fff;
+}
+footer > div > div > ul > li > a > i {
+  width: 40px;
+}
+footer > div > div > ul > li > a > i:hover {
+  color: #6026DB;
+  transition-duration: 800ms;
 }
