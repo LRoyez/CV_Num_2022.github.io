@@ -586,3 +586,25 @@ img{
         height: 640px;
     }
 }
+footer > div > div:nth-child(2) > ul {
+  display: flex;
+}
+
+.bxl-linkedin-square {
+  color: #C7D1CC;
+  font-size:xx-large;
+  margin-right: 40px;
+}
+
+.bxl-github {
+  color: #C7D1CC;
+  font-size:xx-large;
+}
+.footer__copy{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 4.5rem;
+  color: #fff;
+}
