@@ -261,7 +261,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: #a04040;
+  background: #6026DB;
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
