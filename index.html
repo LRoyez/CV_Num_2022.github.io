@@ -62,11 +62,11 @@
                     <span class="section-subtitle about__initial">Parlons de moi </span>
                     <h2 class="section-title about__initial">Louis Royez 
                     <script>
-                        var dob = new Date("10/24/1997");
-                        var month_diff = Date.now() - dob.getTime();
-                        var age_dt = new Date(month_diff); 
-                        var year = age_dt.getUTCFullYear();
-                        var age = Math.abs(year - 1970);
+                        const dob = new Date("10/24/1997");
+                        const month_diff = Date.now() - dob.getTime();
+                        const age_dt = new Date(month_diff); 
+                        const year = age_dt.getUTCFullYear();
+                        const age = Math.abs(year - 1970);
                         document.write(age + " ans");
                     </script>
                     </h2>
