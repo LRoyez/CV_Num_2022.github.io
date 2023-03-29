@@ -5,10 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet preload'>
 
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet preload" type="text/css" as="style" href="assets/css/styles.css">
 
+    <link rel="preload" as="font" href="/assets/fonts/ClashDisplay-Extralight.woff2">
+    <link rel="preload" as="font" href="/assets/fonts/ClashDisplay-Light.woff2">
+    <link rel="preload" as="font" href="/assets/fonts/ClashDisplay-Regular.woff2">
+    <link rel="preload" as="font" href="/assets/fonts/ClashDisplay-Medium.woff2">
+    <link rel="preload" as="font" href="/assets/fonts/ClashDisplay-Semibold.woff2">
     <title>Portfolio Louis</title>
 </head>
 
@@ -21,7 +26,7 @@
 
     <header class="l-header" id="header">
         <nav class="nav bd-container">
-
+            
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Accueil</a></li>
@@ -67,10 +72,10 @@
                     </h2>
                     <p class="about__description">Je suis étudiant à La Manu en Design web, fan de jeux vidéo en particulier les jeux compétitifs car
                          j'adore avoir des objectifs et j'aime par dessus tout gagner. La cuisine fait également parti de mes hobbies car j'ai toujours cuisiné pour ma famille.
-                        J'aimerais dans le futur pouvoir voyager dans le <br> monde entier afin de découvrir de<br> nouvelles choses. </p>
+                        J'aimerais dans le futur pouvoir voyager dans le monde entier afin de découvrir de nouvelles choses. </p>
                 </div>
 
-                <img src="assets/img/about.jpg" alt="" class="about__img">
+                <img src="assets/img/home.jpg" alt="" class="about__img">
             </div>
         </section>
 
@@ -87,6 +92,12 @@
                 <div class="exp__content">
 
                     <h3 class="exp__title">Stage chez Valorisoft 2022</h3>
+                    <p class="exp__description">Site GlobalPre avec Wordpress et Divi.
+                    </p>
+                </div>
+                <div class="exp__content">
+
+                    <h3 class="exp__title">Stage chez Valorisoft 2022</h3>
                     <p class="exp__description">Site Valorisoft avec Wordpress et Divi.
                     </p>
                 </div>
@@ -96,7 +107,6 @@
                     <p class="exp__description">Site des "enfants de monsieur Croches" avec Wordpress.
                     </p>
                 </div>
-
                 <div class="exp__content">
 
                     <h3 class="exp__title">Facteur 2019</h3>
@@ -244,9 +254,10 @@
         <span class="footer__copy">&#169; Louis Royez All rigths reserved</span>
     </footer>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 
 </html>
