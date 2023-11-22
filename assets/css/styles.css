@@ -48,8 +48,8 @@
 :root {
   --header-height: 3rem;
 
-  --first-color: #6026DB;
-  --first-color-alt: #6026DB;
+  --first-color: #cb2145;
+  --first-color-alt: #cb2145;
   --title-color: #393939;
   --text-color: #707070;
   --text-color-light: #A6A6A6;
@@ -104,7 +104,7 @@ body.dark-theme{
   --title-color: #F1F3F2;
   --text-color: #C7D1CC;
   --body-color: #1E1E1E;
-  --container-color: rgb(94, 36, 219, 0.2);
+  --container-color: rgb(203, 33, 69, 0.2);
 }
 
 .change-theme{
@@ -261,7 +261,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: #6026DB;
+  background: #cb2145;
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
@@ -572,7 +572,7 @@ img{
   }
 
   .home__img{
-    width: 400px;
+    width: 200px;
   }
 
   .about__container,
@@ -612,6 +612,6 @@ footer > div > div > ul > li > a > i {
   width: 40px;
 }
 footer > div > div > ul > li > a > i:hover {
-  color: #6026DB;
+  color: #cb2145;
   transition-duration: 800ms;
 }
